@@ -19,10 +19,11 @@ Install my-project with https://jitpack.io/
 
 ```bash
   dependencies {
-	        implementation 'com.github.Mori-hub:'
+	        implementation 'com.github.Mori-hub:Advanced_Menu:1.0.0'
 	}
 ```
-    
+[![](https://jitpack.io/v/Mori-hub/Advanced_Menu.svg)](https://jitpack.io/#Mori-hub/Advanced_Menu)
+   
 ## 🧰Usage
 
 ```javascript
@@ -121,7 +122,6 @@ If you are going to use it as a toolbar , do like this:
 ## Gifs
 <img src="https://user-images.githubusercontent.com/53067774/165562582-6273a5b1-25ac-4ab2-a7bf-8bb7cfa1e1fc.gif" width="15%"></img> <img src="https://user-images.githubusercontent.com/53067774/165562619-3082077c-312e-455d-8ef3-de5cdf98de83.gif" width="15%"></img> <img src="https://user-images.githubusercontent.com/53067774/165562713-ffcd0280-83c6-4ea7-8c59-990b246dc590.gif" width="15%"></img> 
 
-<img src="./assets/image.gif" width="50%" height="50%"/>
 
 ## More Methods
 As you can see in the images, there are two more menus and you can call them.
