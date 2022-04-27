@@ -4,6 +4,7 @@ import android.animation.ArgbEvaluator
 import android.animation.ObjectAnimator
 import android.app.Activity
 import android.content.Context
+import android.graphics.Color
 import android.os.Handler
 import android.os.Looper
 import android.util.AttributeSet
@@ -64,6 +65,30 @@ constructor(
             view.findViewById(R.id.tvUp3),
             view.findViewById(R.id.tvUp4)
         )
+
+        fromColors=arrayListOf(
+               Color.RED,
+            Color.BLUE,
+            Color.BLACK,
+            Color.GREEN
+            )
+        toColors= arrayListOf(
+            Color.GRAY,
+            Color.YELLOW,
+            Color.DKGRAY,
+            Color.RED
+        )
+        backToolbar=Color.GRAY
+        toText =arrayListOf("Recording", "Delete", "Add", "Play")
+        for ((dt, doIt) in boxCard.withIndex()) {
+            doIt.setCardBackgroundColor(fromColors[dt])
+            doIt.setOnClickListener {
+
+                menuUpper(dt)
+            }
+        }
+
+
         //val toobar = view.findViewById<ConstraintLayout>(R.id.cm)
         toolSee = view.findViewById(R.id.toolbar)
         mainUp = view.findViewById(R.id.mainUp)

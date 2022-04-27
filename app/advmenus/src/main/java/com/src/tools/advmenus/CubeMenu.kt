@@ -78,8 +78,9 @@ class CubeMenu @JvmOverloads constructor(
                 )
             }
         }
-
-        parent.apply { addView(view) }
+        fromOneColor = Color.parseColor("#E91E63")
+         toOneColor = Color.parseColor("#220055")
+            parent.apply { addView(view) }
     }
 
     fun setItems(
@@ -177,7 +178,7 @@ class CubeMenu @JvmOverloads constructor(
 
                     // Chick to Open
                     slideModView[2].setOnClickListener {
-
+                        if (icons.size > 0)
                         boxImage[2].setImageResource(icons[2])
                         colorChanging(
                             slideModView[2],
@@ -243,6 +244,7 @@ class CubeMenu @JvmOverloads constructor(
                             }.start()
                             isClick = false
                         } else {
+                            if (runningFunctions.size >0)
                             runningFunctions[2]?.invoke()
                         }
                     }

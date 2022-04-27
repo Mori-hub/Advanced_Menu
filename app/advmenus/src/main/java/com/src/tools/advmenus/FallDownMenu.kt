@@ -77,9 +77,9 @@ class FallDownMenu @JvmOverloads constructor(
 
         parent.apply { addView(view) }
 
-//        for (click in boxImage){
-//            click.setOnClickListener { clickOnIt() }
-//        }
+        for (click in boxImage){
+            click.setOnClickListener { clickOnIt() }
+        }
     }
 
     fun setItems(
