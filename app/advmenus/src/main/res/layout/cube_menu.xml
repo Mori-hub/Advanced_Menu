@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainSlide"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    android:orientation="vertical"
+    android:visibility="gone"
+    tools:ignore="ContentDescription">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/topCard"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="#220055"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/ivSL"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:backgroundTintMode="src_atop"
+            android:scaleType="center"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <ImageView
+        android:id="@+id/ivSL1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="1dp"
+        android:background="#220055"
+        android:scaleType="center"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageView
+        android:id="@+id/ivSL2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="1dp"
+        android:background="#220055"
+        android:scaleType="center"
+        app:srcCompat="@android:drawable/ic_dialog_dialer" />
+
+    <ImageView
+        android:id="@+id/ivSL3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="1dp"
+        android:background="#220055"
+        android:scaleType="center"
+        app:srcCompat="@android:drawable/ic_popup_reminder" />
+
+    <ImageView
+        android:id="@+id/ivSL4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="1dp"
+        android:background="#220055"
+        android:scaleType="center"
+        app:srcCompat="@android:drawable/btn_star_big_off" />
+
+    <ImageView
+        android:id="@+id/ivSL5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:padding="4dp"
+        android:scaleType="center"
+        android:visibility="gone"
+        app:srcCompat="@android:drawable/btn_star_big_off" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/bottomCard"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="#220055"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/ivReturn"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:scaleType="center"
+            app:srcCompat="@android:drawable/ic_menu_revert" />
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:overScrollMode="ifContentScrolls"
+    android:theme="@style/Widget.Material3.PopupMenu.Overflow"
+    app:buttonGravity="center_vertical"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <RelativeLayout
+        android:id="@+id/mainUp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+
+            app:cardCornerRadius="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ivUp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    app:cardBackgroundColor="@android:color/darker_gray"
+                    app:cardCornerRadius="45dp">
+
+                    <TextView
+                        android:id="@+id/tvUp1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:shadowColor="#554D4D"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="10"
+                        app:drawableStartCompat="@android:drawable/ic_menu_camera" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ivUp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    app:cardBackgroundColor="@android:color/darker_gray"
+                    app:cardCornerRadius="45dp">
+
+                    <TextView
+                        android:id="@+id/tvUp2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:shadowColor="#554D4D"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="10"
+                        app:drawableStartCompat="@android:drawable/ic_menu_camera" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ivUp3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    app:cardBackgroundColor="#F3E5F5"
+                    app:cardCornerRadius="45dp">
+
+                    <TextView
+                        android:id="@+id/tvUp3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:shadowColor="#554D4D"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="10"
+                        app:drawableStartCompat="@android:drawable/ic_menu_camera" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ivUp4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    app:cardBackgroundColor="#E0F7FA"
+                    app:cardCornerRadius="45dp">
+
+                    <TextView
+                        android:id="@+id/tvUp4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:shadowColor="#554D4D"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="10"
+                        app:drawableStartCompat="@android:drawable/ic_menu_delete" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>
