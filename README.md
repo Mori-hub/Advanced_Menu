@@ -116,13 +116,10 @@ If you are going to use it as a toolbar , do like this:
 
 ## Screenshots
 
-<img src="https://user-images.githubusercontent.com/53067774/165560290-9d7903b2-37fa-4be5-a56f-16e7cadec9c0.jpg" width="15%">
-</img> <img src="https://user-images.githubusercontent.com/53067774/165560304-a6a81afe-a835-4c61-b09b-69b0f1c2dd3d.jpg" width="15%">
-</img> <img src="https://user-images.githubusercontent.com/53067774/165560315-4ec1e1da-2076-4d69-9189-b755116b144e.jpg" width="15%">
-</img> <img src="https://user-images.githubusercontent.com/53067774/165560327-a9321ab0-8c19-4874-be40-da6f9b3523bd.jpg" width="15%"></img> 
+<img src="https://user-images.githubusercontent.com/53067774/165560290-9d7903b2-37fa-4be5-a56f-16e7cadec9c0.jpg" width="15%"></img> <img src="https://user-images.githubusercontent.com/53067774/165560304-a6a81afe-a835-4c61-b09b-69b0f1c2dd3d.jpg" width="15%"></img> <img src="https://user-images.githubusercontent.com/53067774/165560315-4ec1e1da-2076-4d69-9189-b755116b144e.jpg" width="15%"></img> <img src="https://user-images.githubusercontent.com/53067774/165560327-a9321ab0-8c19-4874-be40-da6f9b3523bd.jpg" width="15%"></img> 
 
 ## Gifs
-![see](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5eeea355389655.59822ff824b72.gif)
+<img src="https://user-images.githubusercontent.com/53067774/165562582-6273a5b1-25ac-4ab2-a7bf-8bb7cfa1e1fc.gif" width="15%"></img> <img src="https://user-images.githubusercontent.com/53067774/165562619-3082077c-312e-455d-8ef3-de5cdf98de83.gif" width="15%"></img> <img src="https://user-images.githubusercontent.com/53067774/165562713-ffcd0280-83c6-4ea7-8c59-990b246dc590.gif" width="15%"></img> 
 
 <img src="./assets/image.gif" width="50%" height="50%"/>
 
