@@ -36,7 +36,7 @@ Install my-project with https://jitpack.io/
         
 ```
 ## Explain
-* **Parent Layout** : This must be a Layout and put anywhere
+* **Parent Layout** : This must be a ConstraintLayout and put anywhere
 * **null** : For Running Function and Finish Function
 * **Show** : When you call UpperMenu method, the layout will attach to the window 
 * **Show** : For Cube and Falldown use .show() 
